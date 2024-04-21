@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* placing items in center both vertically and hori..*/
+    background-color: rgb(191, 230, 230);
+}
+
+#calc {
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 30px;
+    max-width: 400px;
+    overflow: hidden;
+}
+
+#textBox {
+    width: 100%;
+    padding: 20px;
+    background-color: hsl(0, 0%, 20%);
+    font-size: 4rem;
+    text-align: left;
+    border: none;
+    color: white;
+}
+
+button {
+    width: 50px;
+    border-radius: 25px;
+    height: 50px;
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+#key-btn {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 cols and 1fractions*/
+    gap: 15px; /* gap b/w cols*/
+    padding: 25px;
+}
+
+/* when we hover mouse */
+button:hover {
+    background-color: hsl(0, 0%, 50%);
+}
+
+
+/* when we click on it */
+button:active {
+    background-color: hsl(0, 0%, 70%);
+}
+
+.operator-btn {
+    background-color: hsl(35, 100%, 55%);
+}
+
+.operator-btn:hover {
+    background-color: hsl(35, 100%, 65%);
+}
+.operator-btn:active {
+    background-color: hsl(35, 100%, 75%);
+}
