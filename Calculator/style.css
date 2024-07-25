@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh; /* placing items in center both vertically and hori..*/
-    background-color: rgb(191, 230, 230);
+    background-color: rgb(191, 230, 202);
 }
 
 #calc {
